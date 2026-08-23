@@ -1,4 +1,4 @@
-// Write a program to input of two numbers and display their sum.
+// Write a program to input of two numbers and display their s
 #include<stdio.h>
 
 int main() {
