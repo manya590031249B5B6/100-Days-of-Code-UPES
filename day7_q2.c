@@ -17,7 +17,7 @@ Consonant
 #include<stdio.h>
 
 int main() {
-char vowels,consonants,character;
+char character;
 printf("\nEnter any character value=");
 scanf("%c",&character);
 if(character=='a' || character=='e' || character=='i' || character=='o' || character=='u')

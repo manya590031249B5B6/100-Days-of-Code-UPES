@@ -17,11 +17,12 @@ After swap: 1 -1
 
 int main() {
     int n,a,b;
-    printf("\nEnter any two no.'s=");
+    printf("\nEnter any two no.=");
     scanf("%d %d",&a,&b);
-    n=a;
-    a=b;
-    b=n;
-    printf("\nSawpping of two no. is %d %d",a ,b);
+    n=a+b;
+    a=n-a;
+    b=n-b;
+    printf("\nSwaping of two no. is %d %d",a,b);
+
     return 0;
 }

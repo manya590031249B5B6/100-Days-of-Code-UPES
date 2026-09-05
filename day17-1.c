@@ -24,7 +24,7 @@ original=n;
 
 while(original!=0) {
 remainder=original%10;
-result=remainder*remainder*remainder;
+result+=remainder*remainder*remainder;
 original=original/10;
 }
 

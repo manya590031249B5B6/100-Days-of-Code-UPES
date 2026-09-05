@@ -17,7 +17,7 @@ Output 2:
 #include<stdio.h>
 
 int main() {
-int i=1,n,ctr=0,count=0;
+int i=1,n;
 printf("\nEnter any number=");
 scanf("%d",&n);
 

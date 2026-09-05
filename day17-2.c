@@ -23,8 +23,8 @@ int main() {
 
     int isPrime = 1;
 
-    if(n ==0 && n==1) {
-        isPrime=0;
+    if(n ==0  || n==1) {
+    isPrime=0;
     } else {
         for(int i=2;i<=n/2;i++)
         if(n%i==0) {

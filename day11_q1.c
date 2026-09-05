@@ -56,10 +56,10 @@ break ;
 case 10:
 printf("\noctober in 31  days");
 break ;
-case11 :
+case 11 :
 printf("\nNovember with 30 days");
 break ;
-case12 :
+case 12 :
 printf("\nDecember with 31 days");
 break;
 }

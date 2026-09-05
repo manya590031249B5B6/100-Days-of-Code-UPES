@@ -22,7 +22,7 @@ printf("\nEnter any number=");
 scanf("%d",&n);
 i=0;
 for(count=0;count<=n;count++)
-{d
+{
     product=product*i;
     i=i+2;
 }

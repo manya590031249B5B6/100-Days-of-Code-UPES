@@ -39,12 +39,12 @@ if(n<=5)
 n=n*2;
 printf("\nFor the first five days late is %d",n);
 }
-if(n<=10)
+else if(n<=10)
 {
 n=(5*2+(n-5)*4);
 printf("\for the 10 days charge is %d",n);
 }
-if(n<=26)
+else if(n<=26)
 {
 n=(5*2+4*5+(n-10)*6);
 printf("\nfr the 26days charge is %d",n);
