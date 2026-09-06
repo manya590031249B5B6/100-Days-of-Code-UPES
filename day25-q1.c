@@ -21,17 +21,18 @@ Output 1:
 #include<stdio.h>
 
 int main() {
-    int r,i,j;
-    printf("\nEnter no.of rows=");
-    scanf("%d",&r);
-    while(--i<=r)
+int n,r,i,j;
+printf("\nEnter number=");
+scanf("%d",&n);
+for(i=1;i<=5;i++)
+{
+    r=1;
+    for(j=1;j<=i;j++)
     {
-        printf("\n");
-            while(++j<=i)
-            {
-                printf("%d",j);
-            }
-
-            }
+        r=r*10;
+    }
+    printf("%d\n",n%r);
+}
 return 0;
-        }
+}
+        
